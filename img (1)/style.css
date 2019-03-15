@@ -15,8 +15,12 @@ a{
     color: #f7c08a
 }
 
-h1,h2,h3{
-    padding: bottom
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
 }
 
 .btn {
@@ -33,22 +37,22 @@ h1,h2,h3{
     background: #f4f4f4;
     color: #333;
 }
-.bg-dark{
-    background: #333;
-    color: 444;
+
+.bg-primary{
+    background: #f7c08a;
+    color: #333;
 }
 
-.btn-light{
+.bg-dark{
+    background: #333;
+    color: white;
+}
+.bg-light {
     background: #f4f4f4;
     color: #333;
 }
 
-.bg-primary{
-    background: #333;
 
-
-
-}
 .container{
     max-width: 1100px;
     margin: auto;
@@ -120,26 +124,38 @@ nav ul li a:hover, nav ul li .current
     padding-bottom: 20px;
 
 }
-/* Home*/
+/* Home Info */
 #home-info {
     height: 400px
 }
 
 #home-info .info-content {
-    float: left;
+    float: right;
     width: 50%;
-    background:  url(".../img/photo-1.jpg") no-repeat;
     min-height: center;
     height: 100%;
     padding: 50px 30px;
     overflow: hidden;
 }
 
-#home-info .info-content{
-margin-bottom: 30px;
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url("../img/photo-1.jpg") no-repeat;
+    min-height: 100%;
 }
 
-/* Feature */
+#home-info .img-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+
+}
+
+/* Features */
+
 .box{
     float: left;
     width: 33.3%;
